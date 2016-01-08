@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -36,9 +36,9 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
@@ -1078,9 +1078,9 @@ http://www.vishay.com/docs/71151/71151.pdf</description>
 <pad name="T@23" x="3.81" y="2.54" drill="0.3302"/>
 <pad name="T@17" x="-3.81" y="2.54" drill="0.3302"/>
 <pad name="T@24" x="-3.81" y="1.27" drill="0.3302"/>
-<polygon width="0" layer="31" spacing="0.0254">
-<vertex x="-3.4" y="-2.5"/>
-<vertex x="-3.4" y="-5.3"/>
+<polygon width="0.381" layer="31" spacing="0.0254">
+<vertex x="-3.2984" y="-2.6016"/>
+<vertex x="-3.2984" y="-5.3"/>
 <vertex x="-2.6" y="-5.3"/>
 <vertex x="-2.6" y="-3.3"/>
 <vertex x="-2.2" y="-3.3"/>
@@ -1105,10 +1105,10 @@ http://www.vishay.com/docs/71151/71151.pdf</description>
 <vertex x="3.4" y="-3.3"/>
 <vertex x="3.8" y="-3.3"/>
 <vertex x="3.8" y="-5.3"/>
-<vertex x="4.6" y="-5.3"/>
-<vertex x="4.6" y="-2.5"/>
+<vertex x="4.473" y="-5.2746"/>
+<vertex x="4.473" y="-2.5762"/>
 </polygon>
-<polygon width="0" layer="31">
+<polygon width="0.381" layer="31">
 <vertex x="-4.85" y="8"/>
 <vertex x="-4.85" y="6.6"/>
 <vertex x="-4.17" y="6.6"/>
@@ -1122,9 +1122,9 @@ http://www.vishay.com/docs/71151/71151.pdf</description>
 <vertex x="4.85" y="6.6"/>
 <vertex x="4.85" y="8"/>
 </polygon>
-<polygon width="0" layer="29">
-<vertex x="-3.5" y="-2.4"/>
-<vertex x="-3.5" y="-5.4"/>
+<polygon width="0.381" layer="29">
+<vertex x="-3.3984" y="-2.4"/>
+<vertex x="-3.3984" y="-5.4"/>
 <vertex x="-2.5" y="-5.4"/>
 <vertex x="-2.5" y="-3.4"/>
 <vertex x="-2.3" y="-3.4"/>
@@ -1152,7 +1152,7 @@ http://www.vishay.com/docs/71151/71151.pdf</description>
 <vertex x="4.7" y="-5.4"/>
 <vertex x="4.7" y="-2.4"/>
 </polygon>
-<polygon width="0" layer="29">
+<polygon width="0.381" layer="29">
 <vertex x="-4.95" y="8.1"/>
 <vertex x="-4.95" y="6.5"/>
 <vertex x="-4.27" y="6.5"/>
